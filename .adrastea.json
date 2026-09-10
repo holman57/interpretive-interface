@@ -1,0 +1,18 @@
+{
+  "name": "interpretive-interface",
+  "version": "0.2.0",
+  "owner": "holman57",
+  "description": "Modern Android 15 voice-first communicative interface with real-time STT/TTS, hands-free SMS audio reading, and background audio bridge.",
+  "tech_stack": {
+    "engine": "Kotlin, Gradle (build.gradle.kts)",
+    "framework": "Android Jetpack Compose, Material3, Foreground Services",
+    "audio": "SpeechRecognizer, TextToSpeech, Foreground Notification Service"
+  },
+  "features": [
+    "VoiceBridgeService foreground daemon with persistent audio notification",
+    "Hands-free SMS reading via SmsReceiver and TextToSpeechManager",
+    "Push-to-talk audio input gate and Bluetooth headset trigger hooks",
+    "Modern Jetpack Compose conversational chat screen"
+  ],
+  "active_issues": [2]
+}
